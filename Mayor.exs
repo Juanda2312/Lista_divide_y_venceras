@@ -2,6 +2,7 @@ defmodule MayorLista do
   def main do
     n = [1,8,3,25,3,20]
     mayor(n)
+    |> IO.puts()
   end
 
   def mayor([]), do: 0
